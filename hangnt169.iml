@@ -55,7 +55,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework.boot:spring-boot-devtools:3.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:3.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.3.3" level="project" />
-    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.34" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.24" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:3.3.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:3.3.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:3.3.3" level="project" />
@@ -93,5 +93,9 @@
     <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-annotations-api:10.1.28" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:10.1.28" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jdt:ecj:3.33.0" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.servlet:jakarta.servlet-api:6.0.0" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.el:jakarta.el-api:5.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1" level="project" />
   </component>
 </module>
