@@ -39,11 +39,21 @@ public class SinhVienService {
     }
 
     public SinhVien detailSinhVien(String mssv) {
-        for (int i = 0; i < lists.size(); i++) {
-            if (lists.get(i).getMssv().equalsIgnoreCase(mssv)) {
-                return lists.get(i);
-            }
-        }
-        return null;
+//        for (int i = 0; i < lists.size(); i++) {
+//            if (lists.get(i).getMssv().equalsIgnoreCase(mssv)) {
+//                return lists.get(i);
+//            }
+//        }
+//        return null;
+        // C2:filter: bo loc ( loc du lieu theo dieu kien mong muon)
+        return lists.stream()
+                .filter(s -> s.getMssv().equalsIgnoreCase(mssv))
+                .findFirst()
+                .orElse(null);
+    }
+
+    public void addSinhVien(SinhVien sv) {
+        // validate
+        lists.add(sv);
     }
 }
