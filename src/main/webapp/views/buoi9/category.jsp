@@ -5,6 +5,11 @@
     <title>Title</title>
 </head>
 <body>
+<select>
+    <c:forEach>
+        <option value="id">name</option>
+    </c:forEach>
+</select>
 <table>
     <thead>
     <tr>
@@ -12,21 +17,18 @@
         <th>Ma</th>
         <th>Ten</th>
     </tr>
-
     </thead>
     <tbody>
-    <c:forEach items="${listCategory}" var="ct">
+    <%--ProductID, Product Name, Price, Description, Category Code, Category Name --%>
+    <%-- => 1 bang   --%>
+    <c:forEach items="${listCategory}" var="ct" varStatus="i">
         <tr>
-            <td></td>
+            <td>${i.index}</td>
             <td>${ct.listCategory}</td>
             <td>${ct.categoryName}</td>
         </tr>
-
     </c:forEach>
-
-
     </tbody>
-
 </table>
 </body>
 </html>
